@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(RobotoCondensed-VariableFont_wght.ttf);
+}
+/* HEADER SETTINGS */
+header img {
+ height: 100px;
+ margin: 0 auto;
+ padding: 0;
+ display: flex;
+ justify-content: center;
+}
+/* END OF HEADER SETTINGS */
+
+/* MAIN BLOCK SETTINGS */
+.left_side {
+    display: flexbox;
+    float: left;
+    width: 65%;
+    margin: 50px 50px;
+    gap: 10px;
+}
+.first-image {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 5px;
+}
+.first-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+.small_section {
+    gap: 10px;
+    display: flex;
+}
+.small_section img {
+    height: 50%;
+    width: 50%;
+    border-radius: 15px;
+}
+
+.present-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.right_side {
+    float: inline-start;
+    display: flex;
+    
+}
+h2 {
+    font-family: "Roboto";
+    font-size: 50px;
+    color: #fb5f04;
+    display: flex;
+    float: right;
+    margin-left: 300px;
+
+}
+.right-images {
+    display: flex;
+    float: right;
+    flex-direction: column;
+    position: relative;
+    right: 300px;
+    margin-top: 250px;
+    gap: 25vh;
+    height: 400px;
+    width: 350px;
+    
+}
+
+.right-images img:hover {
+    -moz-transform: scale(1.8);
+    -webkit-transform: scale(1.8);
+    transform: scale(1.8);
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    
+}
+
+/* ENF OF MAIN BLOCK SETTINGS */
+
+/* FOOTER SETTINGS */
+footer {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+    margin:10em;
+}
+
+footer div a {
+    font-family: "Roboto";
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    border-color: 1px solid black;
+    text-decoration: none;
+
+
+}
+footer div:hover {
+    -moz-transform: scale(1.8);
+    -webkit-transform: scale(1.8);
+    transform: scale(1.8);
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+/* END OF FOOTER SETTINGS */
